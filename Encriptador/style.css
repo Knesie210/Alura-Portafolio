@@ -1,0 +1,43 @@
+/*variables principales*/
+*:root{
+    --mainColor:#F3F5FC;
+    --mainFont:"Inter", sans-serif;
+    --fontsize: 2em;
+    --fontColor:#0A3771;
+}
+/*fondo del sitio*/
+body{
+    background-color: var(--mainColor);
+    -webkit-text-size-adjust: 100%;
+
+}
+.logo-alura{
+    width: 3em;
+    height: 3em;
+    margin: 2em;
+    display: inline-block;
+
+}
+/*ingreso de texto a encriptar*/
+#texto-encriptar{
+    border: none;
+    margin:1em 4em;
+    background-color:var(--mainColor);
+    font-size:var(--fontsize);
+    font-family:var(--mainFont);
+    resize:none;
+    outline:none;
+    color: var(--fontColor);/*color del texto ingresado*/
+}
+::placeholder {
+    color: var(--fontColor);
+    /*color del texto de inicio*/
+}
+div {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }
+  
